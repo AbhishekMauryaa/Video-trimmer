@@ -1,14 +1,13 @@
 # Video-trimmer
 This Python script is designed to trim a video file into smaller segments of 90 seconds each. It utilizes the moviepy library, a powerful tool for video editing and manipulation in Python.
-Video Trimming Script
-This Python script allows you to trim a video into segments of 90 seconds each and save them as separate video files.
 
-Prerequisites
+
+# Prerequisites
 Python installed on your system.
 The moviepy library installed. You can install it using pip:
-
 pip install moviepy
-Instructions
+
+#Instructions
 Import Modules: Import the necessary modules moviepy.editor and os.
 Specify Paths: Set the input_video_path variable to the path of the video you want to trim, and output_folder_path to the folder where you want to save the trimmed clips.
 Load Video: Load the input video file using VideoFileClip().
@@ -19,10 +18,10 @@ Write Clips: Write each trimmed clip to a separate video file in the output fold
 Usage
 Update the input_video_path and output_folder_path variables with your desired paths.
 Run the script. It will trim the video into 90-second segments and save them as separate video files in the specified output folder.
-Example
+
+#Example
 For example, if your input video is charlie.mp4 located at C:\Users\Abhishek Maurya\Desktop\strt\main\ and you want to save the trimmed clips in C:\Users\Abhishek Maurya\Desktop\strt\trim, you would set:
 
-python
 
 input_video_path = r"C:\Users\Abhishek Maurya\Desktop\strt\main\charlie.mp4"
 output_folder_path = r"C:\Users\Abhishek Maurya\Desktop\strt\trim"
